@@ -1,0 +1,81 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  min-height: 100vh;
+  background: black;
+  justify-content: center;
+  align-items: center;
+}
+
+.content,
+.text {
+  font-size: 22px;
+  color: rgb(223, 222, 222);
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+}
+
+.btn {
+  text-align: center;
+  margin-top: 360px;
+}
+
+.talk {
+  position: top;
+  display: inline-block;
+  padding: 10px 20px;
+  color: chartreuse;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  font-size: 17px;
+  overflow: hidden;
+  font-family: cursive;
+  background: none;
+  border: 2px solid chartreuse;
+  transition: 0.2s;
+}
+
+.talk:hover {
+  color: black;
+  border: chartreuse;
+  background: chartreuse;
+  transition-delay: 0.1s;
+  border: hidden;
+}
+
+/*
+.citrus {
+  font-size: 17px;
+  color: greenyellow;
+}
+
+
+/* Optional*/
+/*
+.talk:hover {
+  color: black;
+  border: 1px solid black;
+}
+
+.talk::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: black;
+  z-index: -1;
+  transition: 1s;
+  top: 0;
+  border-radius: 0 0 50% 50%;
+}
+
+.talk:hover::before {
+  z-index: -1;
+  height: 180%;
+}
